@@ -9,7 +9,7 @@ import pickle
 from sklearn.metrics import pairwise_distances
 
 from tictoc.tictoc import TicTocer
-import yt_utils
+import src.yt_utils
 
 from matplotlib import pyplot as plt
 
