@@ -1,4 +1,4 @@
-from projection_util import *
+from src.projection_util import *
 
 NECK = 8
 PELVIS = 0

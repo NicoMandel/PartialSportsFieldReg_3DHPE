@@ -6,10 +6,10 @@ contact: tobibaum@gmail.com
 
 import os
 from PIL import Image
-from projection_util import *
-from stadium_def import *
-from mappings import *
-from anim_util import *
+from src.projection_util import *
+from src.stadium_def import *
+from src.mappings import *
+from src.anim_util import *
 
 r_unreal_stadium = R.from_euler('z', -90, degrees=True).as_matrix()
 

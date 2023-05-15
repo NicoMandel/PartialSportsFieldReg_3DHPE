@@ -1,13 +1,13 @@
 from scipy.spatial.transform import Rotation as R
 import math
-from hough_util import *
+from src.hough_util import *
 import tensorflow as tf
 import time
 import itertools
 from pandas import DataFrame
 from collections import defaultdict
 
-from stadium_def import *
+from src.stadium_def import *
 from scipy.optimize import minimize
 
 # ignore the divide by zero caused by meanshift algo.

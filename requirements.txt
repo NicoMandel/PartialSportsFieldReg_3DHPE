@@ -11,5 +11,5 @@ psutil
 toposort
 pandas
 multiprocess
-# git+https://github.com/tobibaum/tictoc
+git+https://github.com/tobibaum/tictoc
 ipywidgets

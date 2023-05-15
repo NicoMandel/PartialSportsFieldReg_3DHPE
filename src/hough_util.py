@@ -1,6 +1,5 @@
 import time
 from tqdm import tqdm
-import sys
 import numpy as np
 import cv2
 import json

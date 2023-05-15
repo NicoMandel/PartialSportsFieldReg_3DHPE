@@ -1,6 +1,6 @@
 from tictoc.tictoc import TicTocer
 
-from projection_util import *
+from src.projection_util import *
 
 MAX_INT = 2**31-1
 
