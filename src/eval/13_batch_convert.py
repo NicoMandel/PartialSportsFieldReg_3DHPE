@@ -12,15 +12,12 @@ import os
 from mpl_toolkits.mplot3d import Axes3D
 from PIL import Image
 
-import sys
-sys.path.append('..')
-
-from mappings import pos_to_coco_lines
-from anim_util import *
+from src.mappings import pos_to_coco_lines
+from src.anim_util import *
 from glob import glob
-from hough_util import *
-from projection_util import *
-from unreal_util import *
+from src.hough_util import *
+from src.projection_util import *
+from src.unreal_util import *
 
 # === run settings ===
 comb_path = '/disk2/data/UE5sim_3DHPE'

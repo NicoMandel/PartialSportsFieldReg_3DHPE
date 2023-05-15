@@ -87,6 +87,9 @@ proj2d = project_lines(groundtruth[k]['projection'], gt3d)
 # Partial Sports Field Calibration and 3D HPE
 For the full computation pipeline, please check out the jupyter notebooks in the folder [`notebooks`](https://github.com/tobibaum/PartialSportsFieldReg_3DHPE/tree/main/notebooks).
 
+## Installation
+run `pip install -e .` in the base directory. Then import using `from src.<file name> import <function name>`
+
 # Comparison versus groundtruth and sota method
 We compare our method to the fantastic work by Sarandi et al: [metrabs](https://github.com/isarandi/metrabs)
 

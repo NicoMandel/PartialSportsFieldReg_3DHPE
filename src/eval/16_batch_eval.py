@@ -5,16 +5,13 @@ import cv2
 from glob import glob
 from pprint import pprint
 
-import sys
-sys.path.append('..')
-
-from anim_util import *
-from unreal_util import *
-from projection_util import *
-from mappings import *
-from hough_util import *
-from lift3d_util import *
-from mappings import *
+from src.anim_util import *
+from src.unreal_util import *
+from src.projection_util import *
+from src.mappings import *
+from src.hough_util import *
+from src.lift3d_util import *
+from src.mappings import *
 
 # === run settings ===
 comb_path = '/disk2/data/UE5sim_3DHPE'
